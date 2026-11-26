@@ -1,0 +1,22 @@
+# Build products
+/build/
+/dist/
+*.exe
+*.obj
+*.o
+*.out
+*.zip
+*.pdf
+
+# Generated audit files and atomic-save intermediates
+erl_hub_audit.bin
+erl_hub_audit.bin.tmp
+erl_hub_audit.bin.bak
+*.log
+
+# IDE and operating-system files
+.vscode/
+.vs/
+.idea/
+Thumbs.db
+Desktop.ini
